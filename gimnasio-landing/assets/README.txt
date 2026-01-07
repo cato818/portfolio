@@ -1,0 +1,1 @@
+Añade aquí tus imágenes (logo, hero, fotos de entrenadores). Recomendado: optimiza las imágenes antes de subir (WebP, JPG optimizado).

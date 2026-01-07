@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Gimnasio Fuerza - Entrenamientos personalizados, clases en grupo y planes para todos los niveles." />
+  <title>Gimnasio Fuerza — Transforma tu vida</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-row">
+      <div class="brand">Gimnasio <strong>Fuerza</strong></div>
+      <nav class="nav" aria-label="Navegación principal">
+        <a href="#clases">Clases</a>
+        <a href="#entrenadores">Entrenadores</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto" class="btn">Prueba gratis</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="inicio" aria-label="Hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <h1>Transforma tu cuerpo. Transforma tu vida.</h1>
+          <p class="lead">Entrenamientos personalizados, clases diarias y entrenadores certificados para ayudarte a cumplir tus metas.</p>
+          <div class="hero-ctas">
+            <a class="cta" href="#precios">Comienza hoy</a>
+            <a class="cta ghost" href="#clases">Ver clases</a>
+          </div>
+        </div>
+        <div class="hero-image" aria-hidden="false">
+          <!-- Añade aquí una imagen real en /assets -->
+          <img src="assets/hero.jpg" alt="Personas entrenando en el gimnasio" loading="lazy" width="1200" height="800">
+        </div>
+      </div>
+    </section>
+
+    <section class="features container" id="clases">
+      <h2>Nuestras clases</h2>
+      <div class="grid-4">
+        <div class="card">
+          <h3>Fitness</h3>
+          <p>Rutinas intensas para quemar calorías y ganar resistencia.</p>
+        </div>
+        <div class="card">
+          <h3>Yoga</h3>
+          <p>Fortalece cuerpo y mente con clases adaptadas a todos los niveles.</p>
+        </div>
+        <div class="card">
+          <h3>CrossFit</h3>
+          <p>Entrenamientos funcionales para desafiar tus límites.</p>
+        </div>
+        <div class="card">
+          <h3>Entrenamiento Personal</h3>
+          <p>Planes personalizados con seguimiento profesional.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="trainers container" id="entrenadores">
+      <h2>Entrenadores</h2>
+      <div class="grid-3">
+        <article class="trainer">
+          <div class="avatar">Foto</div>
+          <h3>María López</h3>
+          <p>Entrenadora personal especializada en fuerza y rehabilitación.</p>
+        </article>
+        <article class="trainer">
+          <div class="avatar">Foto</div>
+          <h3>Carlos Ruiz</h3>
+          <p>Coach de CrossFit y nutrición deportiva.</p>
+        </article>
+        <article class="trainer">
+          <div class="avatar">Foto</div>
+          <h3>Lucía Pérez</h3>
+          <p>Instructora de Yoga y movilidad.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="pricing container" id="precios">
+      <h2>Planes</h2>
+      <div class="grid-3">
+        <div class="price-card">
+          <h3>Básico</h3>
+          <p class="price">$20/mes</p>
+          <ul>
+            <li>Acceso horario limitado</li>
+            <li>Vestidores</li>
+          </ul>
+          <a class="btn" href="#contacto">Inscribirme</a>
+        </div>
+        <div class="price-card featured">
+          <h3>Pro</h3>
+          <p class="price">$45/mes</p>
+          <ul>
+            <li>Acceso ilimitado</li>
+            <li>2 sesiones con entrenador</li>
+            <li>Clases incluidas</li>
+          </ul>
+          <a class="btn" href="#contacto">Comenzar</a>
+        </div>
+        <div class="price-card">
+          <h3>Premium</h3>
+          <p class="price">$80/mes</p>
+          <ul>
+            <li>Entrenador personal semanal</li>
+            <li>Planes de nutrición</li>
+          </ul>
+          <a class="btn" href="#contacto">Más info</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="testimonials container" aria-label="Testimonios">
+      <h2>Testimonios</h2>
+      <div class="carousel" id="carousel">
+        <blockquote class="slide">"Gracias a Gimnasio Fuerza logré mi primera carrera de 10k." — Ana</blockquote>
+        <blockquote class="slide">"Entrenadores con mucha paciencia y conocimiento." — Pablo</blockquote>
+        <blockquote class="slide">"Me encanta la variedad de clases." — Sofía</blockquote>
+        <div class="carousel-controls">
+          <button id="prev">◀</button>
+          <button id="next">▶</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact container" id="contacto">
+      <h2>Contacto</h2>
+      <p>Escríbenos para una clase de prueba gratis o visita nuestras instalaciones.</p>
+      <form class="contact-form" action="#" onsubmit="return false;">
+        <input type="text" placeholder="Nombre" required>
+        <input type="email" placeholder="Correo" required>
+        <input type="tel" placeholder="Teléfono">
+        <button class="btn" type="submit">Solicitar prueba</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <strong>Gimnasio Fuerza</strong>
+        <p>Dirección: Calle Falsa 123, Ciudad</p>
+      </div>
+      <div>
+        <p>Síguenos</p>
+        <div class="socials">[FB] [IG] [TW]</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
